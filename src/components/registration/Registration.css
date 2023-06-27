@@ -1,0 +1,87 @@
+* {
+  margin: auto;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Karla";
+  src: url("../../fonts/Karla-Regular.ttf");
+}
+@font-face {
+  font-family: "Karla-Bold";
+  src: url("../../fonts/Karla-Bold.ttf");
+}
+.background {
+  width: 100%;
+  background-color: rgba(167, 215, 197, 1);
+  position: relative;
+}
+.background img {
+  width: 235px;
+  height: 235px;
+}
+.second-back-img {
+  margin-left: 72.5%;
+}
+.register-box {
+  width: 428px;
+  height: 400px;
+  background-color: rgba(246, 251, 249, 1);
+  border-radius: 49px;
+  position: absolute;
+  top: 35px;
+  left: 210px;
+  text-align: center;
+}
+.title {
+  font-family: "Karla-Bold";
+  font-size: 32.23px;
+  line-height: 71.79px;
+  color: rgba(33, 43, 39, 1);
+}
+.about {
+  font-family: "Karla";
+  font-size: 14.01px;
+  line-height: 19.91px;
+  text-align: Center;
+  color: rgba(50, 64, 59, 1);
+  width: 308px;
+}
+.input-container {
+  margin-top: 43px;
+  display: grid;
+  gap: 23px;
+}
+.input-container input {
+  width: 289.275px;
+  height: 40.374px;
+  padding-left: 15.9px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 0.9px solid rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  font-family: "Karla";
+  color: rgba(0, 0, 0, 0.5);
+}
+.input-container button {
+  width: 220px;
+  height: 60px;
+  background-color: rgba(132, 199, 174, 1);
+  border-radius: 14px;
+  border: 0px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Karla";
+  font-weight: 700;
+  cursor: pointer;
+}
+.input-container p {
+  font-family: "Karla";
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(50, 64, 59, 1);
+  margin-top: -11px;
+}
+.signin-text {
+  text-decoration: underline;
+  cursor: pointer;
+}
